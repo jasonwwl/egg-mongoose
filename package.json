@@ -1,58 +1,26 @@
 {
-  "name": "egg-mongoose",
-  "version": "2.1.0",
-  "description": "egg mongoose plugin",
-  "eggPlugin": {
-    "name": "mongoose"
-  },
-  "keywords": [
-    "egg",
-    "egg-model",
-    "mongoose",
-    "eggPlugin",
-    "egg-plugin"
-  ],
-  "dependencies": {
-    "await-event": "^2.0.0",
-    "mongoose": "^4.8.6"
-  },
-  "devDependencies": {
-    "autod": "^2.7.1",
-    "egg": "^1.0.0-rc.3",
-    "egg-bin": "^2.4.0",
-    "egg-mock": "^3.1.2",
-    "eslint": "^3.17.1",
-    "eslint-config-egg": "^3.2.0",
-    "supertest": "^3.0.0",
-    "webstorm-disable-index": "^1.1.2"
-  },
-  "engines": {
-    "node": ">=6.0.0"
+  "name": "tmc-egg-mongoose",
+  "version": "1.0.1",
+  "description": "[![NPM version][npm-image]][npm-url] [![build status][travis-image]][travis-url] [![Test coverage][codecov-image]][codecov-url] [![David deps][david-image]][david-url] [![Known Vulnerabilities][snyk-image]][snyk-url] [![npm download][download-image]][download-url]",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
-    "test": "npm run lint -- --fix && npm run test-local",
-    "test-local": "egg-bin test",
-    "cov": "egg-bin cov",
-    "lint": "eslint .",
-    "ci": "npm run lint && npm run cov",
-    "autod": "autod"
-  },
-  "files": [
-    "index.js",
-    "app.js",
-    "agent.js",
-    "config",
-    "app",
-    "lib"
-  ],
-  "ci": {
-    "version": "6, 7"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-mongoose.git"
+    "url": "git+https://github.com/jasonwwl/egg-mongoose.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/jasonwwl/egg-mongoose/issues"
+  },
+  "homepage": "https://github.com/jasonwwl/egg-mongoose#readme",
+  "dependencies": {
+    "await-event": "^2.1.0",
+    "mongoose": "^4.11.4"
   }
 }

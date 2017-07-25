@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  get model() {
-    return this.app.model;
+  get mongo() {
+    return this.app.mongo;
   },
 };
